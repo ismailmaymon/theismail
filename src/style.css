@@ -1,0 +1,27 @@
+
+* {
+  font-family: 'Jost', sans-serif;
+}
+/* Define your animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply animation to the element */
+.fade-in {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Initially hide the target element */
+#about-section {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* Show the target element when it has the 'show' class */
+#about-section.show {
+  opacity: 1;
+  visibility: visible;
+}
