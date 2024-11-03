@@ -71,7 +71,7 @@
                             These are my portfolio projects
                         </p>
                     </div>
-                    <div v-for="item in (key, projects)" class="mt-12 w-full sm:flex gap-10">
+                    <div v-for="item in (key, projects)" :key="item.id" class="mt-12 w-full sm:flex gap-10">
                         <div class="sm:w-6/12">
                             <img :src="item.imageUrl" alt=""
                                 class="sm:p-10 p-2 w-full object-contain shadow bg-blue-950 rounded">
@@ -118,16 +118,16 @@ export default {
                     title: "Pokemon",
                     overview: "I was a kid during the 90s when Pokemon was at it's peak and virtually every child was obsessed with it. Now, 22 years later, most of those chil dren have grown out of it, but I never did. It's a franchise whose primary audience is children, so what do you see in it that keeps you interested as an adult?",
                     imageUrl: pokemonImage,
-                    liveLink: "https://pokemon-pro-web.netlify.app/",
-                    githubLink: "https://github.com/theismailmemon/pokemon"
+                    liveLink: "https://pokemon-33.netlify.app/",
+                    githubLink: "https://github.com/ismailmaymon/pokemon"
                 },
                 {
                     usesLanguage: ["Vue", "CSS", "JavaScript", "HTML"],
                     title: "Todo List",
                     overview: "To prepare for the day, start with some morning yoga or stretching. Get ready for any important meetings or appointments. Prepare your meals for the day and focus on completing an important task. Take a break in the afternoon to relax before diving back into work.",
                     imageUrl: todoListImage,
-                    liveLink: "https://todo-list-pro-web.netlify.app/",
-                    githubLink: "https://github.com/theismailmemon/todo-list"
+                    liveLink: "https://todo-list-33.netlify.app/",
+                    githubLink: "https://github.com/ismailmaymon/todo-list"
                 },
             ]
         }
