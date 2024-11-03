@@ -111,7 +111,7 @@ export default {
         return {
             detailsOpen: false,
             pokemon: {},
-            skills: ['HTML', 'CSS', 'JavaScript', 'Vue Js', 'React Js', 'Saas', 'Git', 'Shopify', 'Nuxt Js', 'Expo Js'],
+            skills: ['HTML', 'CSS', 'JavaScript', 'Vue Js', 'React Js', 'Saas', 'Git', 'Shopify', 'Nuxt Js', 'Next Js', 'Expo Js'],
             projects: [
                 {
                     usesLanguage: ["Vue", "CSS", "JavaScript", "HTML"],
